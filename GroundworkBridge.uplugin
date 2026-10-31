@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "Groundwork Bridge",
+	"Description": "Live link between the Groundwork map editor and the open level: ground heights and layers, objects, rivers and lakes, both ways, on this computer only.",
+	"Category": "Editor",
+	"CreatedBy": "Groundwork contributors",
+	"DocsURL": "https://github.com/imdizmo/groundwork-bridge",
+	"CanContainContent": false,
+	"Modules": [
+		{
+			"Name": "GroundworkBridge",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Water",
+			"Enabled": true
+		}
+	]
+}
